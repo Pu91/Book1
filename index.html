@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Animation Card</title>
+    <link rel="stylesheet" href="/gift card/style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <h2>🎉 Happy Birthday! 🎂</h2>
+                <button onclick="openCard()">Open Card</button>
+            </div>
+            <div class="card-back">
+                <h3>🎈 Surprise! 🎁</h3>
+                <img src="/gift card/1000122756 (2) (1) (4).jpg" alt="Birthday Photo">
+                <p>Wishing you a wonderful birthday filled with love, joy, and laughter! 🎊</p>
+                <div class="balloons">
+                    <div class="balloon red"></div>
+                    <div class="balloon blue"></div>
+                    <div class="balloon yellow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <!-- Background Music & Sound Effect -->
+    <audio id="bg-music" loop>
+        <source src="/gift card/happy-birthday-254480.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="click-sound">
+        <source src="" type="audio/mpeg">
+    </audio>
+
+    <script src="/gift card/.js"></script>
+</body>
+</html>
